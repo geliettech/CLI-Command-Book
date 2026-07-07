@@ -59,7 +59,7 @@ Part of [Cmdbook](../README.md).
 | `git switch <branch>` | Switch branches (modern alternative to checkout) |
 | `git switch -c <branch>` | Create and switch to a new branch |
 | `git branch -d <branch>` | Delete a branch locally (safe) |
-| `git push origin -delete <branch>` | Delete a branch Remotely (safe) |
+| `git push origin --delete <branch>` | Delete a branch Remotely (safe) |
 | `git branch -D <branch>` | Force delete a branch |
 | `git merge <branch>` | Merge a branch into the current one |
 | `git rebase <branch>` | Reapply commits on top of another branch |
