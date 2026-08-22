@@ -54,6 +54,7 @@ Git is a distributed version control system used to track changes in source code
 | Command | Description |
 |---|---|
 | `git branch` | List local branches |
+| `git branch -r` | List remote branches |
 | `git branch <name>` | Create a new branch |
 | `git checkout <branch>` | Switch to a branch |
 | `git checkout -b <branch>` | Create and switch to a new branch |
@@ -74,6 +75,7 @@ Git is a distributed version control system used to track changes in source code
 | `git remote add origin <url>` | Add a remote |
 | `git remote set-url origin <url>` | Change the URL of an existing remote (e.g. after renaming a repo) |
 | `git fetch` | Download changes without merging |
+| `git fetch origin` | Fetch the latest remote branches |
 | `git pull` | Fetch + merge from remote |
 | `git pull --rebase` | Fetch + rebase instead of merge |
 | `git push` | Push commits to remote |
