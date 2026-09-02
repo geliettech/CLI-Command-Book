@@ -66,6 +66,9 @@ Git is a distributed version control system used to track changes in source code
 | `git merge <branch>` | Merge a branch into the current one |
 | `git rebase <branch>` | Reapply commits on top of another branch |
 | `git push origin <branch>` | Push and set upstream tracking of a branch |
+| `git branch -m <new-branch-name>` | Rename the current local branch |
+| `git branch -m old-branch-name new-branch-name` | Rename local branch |
+
 
 ## Syncing with Remotes
 
