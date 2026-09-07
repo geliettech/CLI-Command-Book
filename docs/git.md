@@ -64,6 +64,7 @@ Git is a distributed version control system used to track changes in source code
 | `git push origin --delete <branch>` | Delete a branch remotely (safe) |
 | `git branch -D <branch>` | Force delete a branch |
 | `git merge <branch>` | Merge a branch into the current one |
+| `git merge --abort` | Cancel an in-progress merge and return your working tree to its pre-merge state |
 | `git rebase <branch>` | Reapply commits on top of another branch |
 | `git push origin <branch>` | Push and set upstream tracking of a branch |
 | `git branch -m <new-branch-name>` | Rename the current local branch |
