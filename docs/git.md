@@ -44,7 +44,8 @@ Git is a distributed version control system used to track changes in source code
 
 | Command | Description |
 |---|---|
-| `git commit -m "message"` | Commit staged changes with a message |
+| `git commit -m "message"` | Commit staged changes with a commit message (subject) |
+| `git commit -m "message" -m "description"` | Commit staged changes with a subject and a detailed description (body) |
 | `git commit -am "message"` | Stage tracked files + commit in one step |
 | `git commit --amend` | Edit the previous commit (message or content) |
 | `git commit --amend --no-edit` | Add staged changes to the last commit without changing the message |
